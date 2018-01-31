@@ -4,8 +4,11 @@ Contributers: guptayash and ayushkul2910
 INTRODUCTION
 In this project, we are implementing a self-driven car using Raspberry-Pi. Raspberry-Pi being portable and having powerful processor can be considered as best micro-controller for this project.
 There are three basic modules associated with the processing part: -
+
  First module is the obstruction detection using Ultrasonic Sensor.
+
  Second module is stop sign detection.
+
  Third module is lane detection.
 Our main motive is to let the car be driven on its own using the above mentioned features. Ultrasonic Sensor detects if an object is in front of the car. Stop sign conveys when to stop. Lane detection let the car to be driven in a proper lane.
 
@@ -47,5 +50,6 @@ For detecting the stop signs, a Haar cascade has to be made. This can be achieve
 As soon as the image is fed to the processor, the noise is reduced by using Gaussian blur filters and canny edge extraction. For detecting the lanes, Hough transform is used which detects the straight lines, thus the straight lanes are detected. Now, the average of these lanes is calculated and the car is forced to move about this average line. If the car diverts to left or right, the average shifts and car is forced to turn in other direction.
 These all modules are integrated in a single piece of code, without compromising the processing time and the reaction time of the car.
 
+SCREENSHOTS:-
 
-
+![Alt text](images/ss_2.png "Circuit Diagram")
