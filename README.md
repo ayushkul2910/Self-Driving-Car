@@ -53,14 +53,18 @@ These all modules are integrated in a single piece of code, without compromising
 Diagrams and Screenshots:-
 
 Circuit Diagram:
+
 ![Alt text](images/ss_2.png "Circuit Diagram")
 
 Distance from Ultrasonic sensor, per 0.01 sec:
+
 ![Alt text](images/ss_1.png "Distance from Ultrasonic sensor, per 0.01 sec")
 
-Detection of Stop sign with distance from car
+Detection of Stop sign with distance from car:
+
 ![Alt text](images/ss_3.png "Detection of Stop sign with distance from car")
 
-Detection of lane in real-time
+Detection of lane in real-time:
+
 ![Alt text](images/ss_4.png "Detection of lane in real-time")
 
