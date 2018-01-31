@@ -50,6 +50,13 @@ For detecting the stop signs, a Haar cascade has to be made. This can be achieve
 As soon as the image is fed to the processor, the noise is reduced by using Gaussian blur filters and canny edge extraction. For detecting the lanes, Hough transform is used which detects the straight lines, thus the straight lanes are detected. Now, the average of these lanes is calculated and the car is forced to move about this average line. If the car diverts to left or right, the average shifts and car is forced to turn in other direction.
 These all modules are integrated in a single piece of code, without compromising the processing time and the reaction time of the car.
 
-SCREENSHOTS:-
+Diagrams and Screenshots:-
 
 ![Alt text](images/ss_2.png "Circuit Diagram")
+
+![Alt text](images/ss_1.png "Distance from Ultrasonic sensor, per 0.01 sec")
+
+![Alt text](images/ss_3.png "Detection of Stop sign with distance from car")
+
+![Alt text](images/ss_4.png "Detection of lane in real-time")
+
